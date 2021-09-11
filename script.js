@@ -63,10 +63,27 @@ window.onload = function() {
     header.style.animation = 'arising 5s';
 }
 
+const disabledTrueButton = () => {
+    document.getElementById('activateButton').disabled = true;
+}
+
+const disabledFalseButton = () => {
+    document.getElementById('activateButton').disabled = false;
+}
+
+
+
+// Selecionando o button
+const bttn = document.getElementById('activateButton');
+
 // Mostrando os resultados
-eightBall.onclick = () => {
+bttn.addEventListener('click', () => {
     shakeBall();
+    disabledTrueButton();
     setTimeout(resetShake, 2000);
     setTimeout(showResults, 2000);
-    setTimeout(resetResults, 7000);  
-}
+    setTimeout(resetResults, 7000);
+    setTimeout(disabledFalseButton, 8000);
+});
+
+

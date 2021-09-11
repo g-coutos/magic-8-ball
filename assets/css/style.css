@@ -40,6 +40,11 @@ body {
     justify-self: center;
 }
 
+.box__button {
+    background-color: transparent;
+    border: none;
+}
+
 .box__img {
     width: 100%;
     filter: contrast(98%);
@@ -163,7 +168,8 @@ body {
         font-size: .9rem;
     }
 
-    .box__img {
+    
+    .box__button {
         cursor: pointer;
     }
 }
