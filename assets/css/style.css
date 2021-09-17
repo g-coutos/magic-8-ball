@@ -36,10 +36,6 @@ body {
     position: relative;
 }
 
-.main {
-    justify-self: center;
-}
-
 .box__button {
     background-color: transparent;
     border: none;
@@ -47,7 +43,6 @@ body {
 
 .box__img {
     width: 100%;
-    filter: contrast(98%);
 }
 
 .div__response {
@@ -67,18 +62,18 @@ body {
 
 .box__answer {
     height: 50px;
-    width: 60px;
+    width: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 100px;
     background-color: transparent;
     text-align: center;
-    font-size: .6rem;
-    font-weight: 700;
+    font-size: .5rem;
+    font-weight: 600;
     word-break: keep-all;
     text-transform: uppercase;
-    line-height: 1rem;
+    line-height: .5rem;
     color: #FFF;
     text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
 }
@@ -145,7 +140,9 @@ body {
     }
 
     .box__answer {
-        font-size: .7rem;
+        width: 50px;
+        font-size: .6rem;
+        line-height: 1rem;
     }
 }
 
@@ -164,8 +161,9 @@ body {
 
     .box__answer {
         height: 60px;
-        width: 80px;
-        font-size: .9rem;
+        width: 65px;
+        font-size: .8rem;
+        line-height: 1.1rem;
     }
 
     

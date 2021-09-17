@@ -71,8 +71,6 @@ const disabledFalseButton = () => {
     document.getElementById('activateButton').disabled = false;
 }
 
-
-
 // Selecionando o button
 const bttn = document.getElementById('activateButton');
 
@@ -85,5 +83,3 @@ bttn.addEventListener('click', () => {
     setTimeout(resetResults, 7000);
     setTimeout(disabledFalseButton, 8000);
 });
-
-
