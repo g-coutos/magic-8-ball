@@ -1,4 +1,4 @@
-# Magic 8-Ball
+# Magic 8-Ball :8ball:
 
 Esse projeto consiste em uma representação virtual do brinquedo Magic 8-Ball.
 
