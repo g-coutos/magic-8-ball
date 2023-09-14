@@ -6,4 +6,4 @@ Esse projeto consiste em uma representação virtual do brinquedo Magic 8-Ball.
 A construção do projeto foi feita com HTML5, CSS3 e JavaScript.
 
 ## Live Demonstration
-[Magic 8-Ball](https://guicoutost.github.io/magic-8-ball/)
+[Magic 8-Ball](https://g-coutos.github.io/magic-8-ball/)
